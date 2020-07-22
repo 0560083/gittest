@@ -2,10 +2,17 @@
 
 using namespace std;
 
+
 void deductnum(int *num[])
 {
 	for(int i=0;i<5;i++)
 		num[i]-=10;
+}
+
+void addnum(int *num[])
+{
+	for(int i=0 ;i<5;i++)
+		num[i]+=10;
 }
 
 int main()
