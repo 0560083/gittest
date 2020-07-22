@@ -2,6 +2,12 @@
 
 using namespace std;
 
+void deductnum(int *num[])
+{
+	for(int i=0;i<5;i++)
+		num[i]-=10;
+}
+
 int main()
 {
 	int num[5]={1,2,3,4,5};
@@ -10,4 +16,9 @@ int main()
 		cout<<num[5]<<" ";
 	cout<<endl;
 	
+	deductnum(num);
+	
+	
+	
+	return 0;
 }
