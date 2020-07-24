@@ -15,6 +15,13 @@ void addnum(int *num[])
 		num[i]+=10;
 }
 
+
+void addnum2(int *num[])
+{
+	for(int i=0 ;i<5;i++)
+		num[i]+=10;
+}
+
 int main()
 {
 	int num[5]={1,2,3,4,5};
